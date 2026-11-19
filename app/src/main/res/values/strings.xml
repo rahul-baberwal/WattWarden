@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WattWarden</string>
+    <string name="widget_desc">Battery level, charging power, temperature and health at a glance.</string>
+</resources>

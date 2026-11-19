@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10203A"/>
+      <stop offset="1" stop-color="#070C16"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1B3866"/>
+      <stop offset="1" stop-color="#0F2142"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD166"/>
+      <stop offset="1" stop-color="#FF9F0A"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- shield (same geometry as the in-app vector, scaled 8x) -->
+  <g transform="translate(0,0) scale(8)">
+    <path d="M32,4 L56,13 V32 C56,46 45,56 32,60 C19,56 8,46 8,32 V13 Z"
+          fill="url(#shield)" stroke="#19E3B1" stroke-width="3" stroke-linejoin="round"
+          filter="url(#glow)"/>
+    <path d="M35,17 L21,35 H29 L27,48 L43,28 H34 Z" fill="url(#bolt)"/>
+  </g>
+</svg>

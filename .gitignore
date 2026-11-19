@@ -1,0 +1,19 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures
+.externalNativeBuild
+.cxx
+
+# ── Secrets & Signing ──────────────────────────────────────
+keystore.properties
+*.jks
+*.keystore
+
+# ── Generated APK / AAB outputs ────────────────────────────
+*.apk
+*.aab
