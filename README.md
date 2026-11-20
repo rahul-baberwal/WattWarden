@@ -61,3 +61,8 @@ Payload example: `{"event":"charge_limit","level":80,"temp_c":34.2}`. Events: `c
 ## Logo
 
 `branding/wattwarden-logo.svg` (source), plus 512 and 1024 px PNGs. The in-app adaptive icon (with a themed monochrome variant) lives in `res/drawable/ic_launcher_*.xml`.
+
+## License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE) — see the LICENSE file for details.
+
